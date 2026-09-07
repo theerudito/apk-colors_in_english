@@ -19,7 +19,7 @@ class PremiumPurchaseService {
 
   static final PremiumPurchaseService instance = PremiumPurchaseService._();
 
-  static const String _premiumProductId = 'premium';
+  static const String _premiumProductId = 'premium_qr_reader';
 
   final InAppPurchase _inAppPurchase = InAppPurchase.instance;
   StreamSubscription<List<PurchaseDetails>>? _subscription;
