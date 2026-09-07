@@ -1,0 +1,71 @@
+name: colors_in_english
+description: "Learn colors in English and Spanish."
+
+publish_to: "none"
+version: 1.0.4+6
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+  google_mobile_ads: ^9.1.0
+  font_awesome_flutter: ^11.0.0
+  url_launcher: ^6.2.5
+  audioplayers: ^6.0.0
+  in_app_purchase: ^3.3.0
+  in_app_purchase_android: ^0.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  icons_launcher: ^3.0.0
+  flutter_native_splash: ^2.4.1
+
+icons_launcher:
+  image_path: "assets/icono.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+flutter_native_splash:
+  color: "#0B0B28"
+  image: assets/splash_icon.png
+  android_12:
+    image: assets/splash_icon.png
+    icon_background_color: "#0B0B28"
+    color: "#0B0B28"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/correct.mp3
+    - assets/error.mp3
+    - assets/clock.ogg
+    - assets/mouse.ogg
+    - assets/icono.png
+    - assets/ads.png
+    - assets/config.png
+    - assets/EN.png
+    - assets/ES.png
+    - assets/mic-Off.png
+    - assets/mic-On.png
+    - assets/premium.png
+    - assets/splash.png
+    - assets/splash_icon.png
+    - assets/faceDefault.png
+    - assets/faceHappy.png
+    - assets/faceSad.png
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf
